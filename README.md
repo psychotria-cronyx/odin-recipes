@@ -39,3 +39,8 @@ Iteration 4: add more recipes
 
     Add two more recipes with identical page structures to the recipe page you’ve already created.
     Don’t forget to link to the new recipes on the index page. Also, consider putting all the links in an unordered list so they aren’t all on one line.
+--------------------------------------------------------------------------------------
+
+
+Some reflection: 
+This project was a bit of a breeze so far - i will come back to add styles. I read the instructions after the project on the bit re deployment. Couldn't help myself but display block in html so it wasn't an eyesore. I really picked up implementing git and comments throughout my project which i liked. I also think i have a better understanding of nesting lists inside of lists and setting up file structure which is what i planned for in this lesson. I came across an error changing the name of my repo and moving it into another directory which i successfully trouble shooted. Looking forward to the next project and also coming back to fix this up with styles and js later in the course.
