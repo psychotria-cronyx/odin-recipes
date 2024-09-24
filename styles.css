@@ -1,3 +1,88 @@
 /*Global Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+This is to ensure padding and borders are included in an element's width and height to simplify layouts
+
+Also added *::before and *::after to apply this rule for psuedoelements if they arise
+*/
+
+body {
+  /*consistency with margin & padding*/
+  font-family: "Verdana", "Arial", sans-serif;
+  background-color: #1b1a1a;
+  color: white;
+  font-size: 16px;
+  line-height: 1.5px;
+  width: 100vw;
+  height: 100vh;
+  margin: 10px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 2rem 0rem 1.5rem 0rem;
+}
+
+p {
+  text-align: center;
+  margin: 1.5rem 1.5rem 0 0;
+  line-height: 1.5rem;
+  /*Global spacing for content*/
+}
+
+img {
+  max-width: 100%; /*scale images to fit containers*/
+  height: auto; /*maintain aspect ratio*/
+  display: block;
+  margin: 2rem auto;
+}
+
+ul {
+  list-style: none;
+  padding-left: 1.25rem;
+}
+
+ol {
+  padding-left: 2.5rem;
+}
+
+li {
+  margin: 1.5rem 0;
+}
+
+* a {
+  text-decoration: underline;
+  color: rgb(26, 194, 194);
+}
+
+* a:visited {
+  color: rgb(110, 62, 155);
+}
+
+/*odin-recipe index*/
 
 /*Recipe Styles*/
+
+section {
+  width: 75%;
+  border: 2px solid red;
+  margin: 0 auto;
+}
+
+.nested-ul li {
+  white-space: normal;
+  border: 2px solid red;
+}
