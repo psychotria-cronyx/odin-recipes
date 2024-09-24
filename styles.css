@@ -23,20 +23,20 @@ body {
   background-color: #1b1a1a;
   color: white;
   font-size: 16px;
-  line-height: 1;
+  line-height: 1.5px;
   width: 100vw;
-  height: 100vh;
+  margin: 10px;
 }
 
 h1 {
   text-align: center;
-  margin: 1rem 0rem 1.5rem 0rem;
+  margin: 2rem 0rem 2.5rem 0rem;
 }
 
 h2,
 h3 {
   text-align: center;
-  margin: 1rem 0rem;
+  margin: 2rem 0rem;
 }
 
 p {
@@ -63,7 +63,7 @@ ol {
 }
 
 li {
-  margin: 1.5rem 0;
+  margin: 1.25rem 0;
 }
 
 * a {
@@ -85,12 +85,17 @@ section {
   margin: 0 auto;
 }
 
-.nested-ul {
-  width: 100%;
-  padding: 0 1rem;
-  border: 2px solid yellow;
+ol > li {
+  margin: 0em 0em 0.5rem 0em;
 }
 
-.nested-ul li {
-  border: 2px solid rgb(47, 0, 255);
+.nested-ul {
+  width: 100%;
+  margin: 0.75rem;
+  padding: 0 1rem;
+}
+
+.nested-ul > li {
+  margin: 0.5rem 0;
+  line-height: 1.15;
 }
