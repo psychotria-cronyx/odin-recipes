@@ -23,9 +23,9 @@ body {
   background-color: #1b1a1a;
   color: white;
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.5px; /*adust line-height with children*/
   width: 100vw;
-  margin: 10px;
+  margin-bottom: 2rem;
 }
 
 h1 {
@@ -41,9 +41,9 @@ h3 {
 
 p {
   text-align: center;
-  margin: 1.5rem 1.5rem 0 0;
+  margin: 1.5rem 1.5rem 0.5rem 1.5rem;
   line-height: 1.5;
-  /*Global spacing for content*/
+  /*Global spacing for paragraphs*/
 }
 
 img {
@@ -54,48 +54,76 @@ img {
 }
 
 ul {
-  list-style: none;
-  padding-left: 1.25rem;
+  list-style: none; /*all unorganised lists, layed out similar to <p>*/
+  padding-left: 1.25rem; /*padding-left so ingredients ul is inline with ol list-style*/
 }
 
 ol {
   list-style-position: inside;
+  margin: 1.2rem 0;
 }
 
 li {
-  margin: 1.25rem 0;
+  margin: 1.2rem 0;
 }
 
 * a {
   text-decoration: underline;
-  color: rgb(26, 194, 194);
+  color: rgb(26, 194, 194); /*link decoration*/
 }
 
-* a:visited {
-  color: rgb(110, 62, 155);
+* a:hover {
+  color: rgb(110, 62, 155); /*link decoration*/
 }
 
 /*odin-recipe index*/
 
-/*Recipe Styles*/
+.index-recipes .index-img {
+  margin-bottom: 4rem;
+}
+
+/*recipe pages*/
+
+content.description,
+content.conclusion {
+  display: block; /*content containers*/
+  margin: 0 auto; /*center div*/
+  width: 50%; /*half vw*/
+}
+
+.description h2 {
+  margin: 0;
+}
+
+.description p {
+  word-wrap: inherit;
+}
 
 section {
-  width: 75%;
-  border: 2px solid red;
+  width: 50%;
   margin: 0 auto;
+}
+
+.inline-section {
+  display: inline; /*Green curry ingredients listed side by side */
 }
 
 ol > li {
   margin: 0em 0em 0.5rem 0em;
 }
 
+.ingredients {
+  text-align: center;
+}
+
 .nested-ul {
   width: 100%;
-  margin: 0.75rem;
+  margin: 0.5rem;
   padding: 0 1rem;
 }
 
 .nested-ul > li {
-  margin: 0.5rem 0;
-  line-height: 1.15;
+  margin: 0;
+  margin-bottom: 1rem;
+  line-height: 1.2;
 }
