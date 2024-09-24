@@ -23,27 +23,26 @@ body {
   background-color: #1b1a1a;
   color: white;
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1;
   width: 100vw;
   height: 100vh;
-  margin: 10px;
 }
 
 h1 {
   text-align: center;
-  margin: 2rem 0rem 2.5rem 0rem;
+  margin: 1rem 0rem 1.5rem 0rem;
 }
 
 h2,
 h3 {
   text-align: center;
-  margin: 2rem 0rem;
+  margin: 1rem 0rem;
 }
 
 p {
   text-align: center;
   margin: 1.5rem 1.5rem 0 0;
-  line-height: 1.5rem;
+  line-height: 1.5;
   /*Global spacing for content*/
 }
 
@@ -86,7 +85,12 @@ section {
   margin: 0 auto;
 }
 
+.nested-ul {
+  width: 100%;
+  padding: 0 1rem;
+  border: 2px solid yellow;
+}
+
 .nested-ul li {
-  white-space: normal;
-  border: 2px solid red;
+  border: 2px solid rgb(47, 0, 255);
 }
